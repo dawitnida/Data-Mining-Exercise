@@ -132,6 +132,25 @@ for(i in 1:ncol(data)){
   hist(data[,i], breaks=100, main=names(data)[i]);
 }
 
+pn <- pnorm(data, mean(data$blood.pressure), sd(data$blood.pressure)
+?pnorm
+
+table(data$diabetes)
+
+pie(data$age)
+
+plot(data$age, data$blood.pressure, col=c("blue", "red"))
+
+#linear model, plot
+lm(data$blood.pressure~data$age)
+# y = 56.0009 + 0.3942*x
+
+# Best fit li
+abline(lm(data$blood.pressure~data$age))
+
+cor(data$blood.pressure, data$age)
+
+hist(data$age)
 
 ## 2.2 Summary statistics
 
