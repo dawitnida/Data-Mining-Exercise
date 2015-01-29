@@ -34,3 +34,15 @@ miss_row
 count_people <- length(which(data$diabetes == 1 & data$bmi >= 30 ))
 count_people
 
+
+data_summary <- summary(data)
+
+## Q3.a. What is the range of age ?
+age_range <- (max(data$age) - min(data$age))
+
+blood_pressure = (data$blood.pressure)
+sd(blood_pressure)
+
+## simn = rnorm(data$blood.pressure, 69.11 , 19.35581)
+## hist(simn, main="Symmetric distribution")
+## ?rnorm

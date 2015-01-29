@@ -2,6 +2,9 @@
 
 ### 0. Initialization
 
+## Get Working Directory
+getwd()
+
 # Set working directory to location of data files (note: use /, not \)
 setwd("C:/Users/sronnqvi/Downloads")
 ## Alternatively: 
@@ -13,10 +16,17 @@ setwd("C:/Users/sronnqvi/Downloads")
 data = read.csv("diabetes.csv")
 
 
+# display files 
+ls()
+objects()
+
 ### 1. Simple operations for practice, run the pieces of code them one by one and observe
 
 # Inspect the names of the variables in the loaded data frame called 'data'
 names(data)
+
+
+class(data)
 
 # Count the number of columns and rows in the data set
 ncol(data)
@@ -33,6 +43,8 @@ data[1:20,3]
 
 # Select multiple columns of the data frame. Returns a data frame (a table).
 data[1:20, c(3,5)]
+
+data[1:10, c(5)]
 
 # Vector arithmetic: Multiply all elements in the age vector with a number
 data[1:20, 3] * 2
@@ -70,13 +82,49 @@ length(which(data$age < 30))
 # Calculate the number of people under 30 who haven't been pregnant
 length(which(data$age < 30 & data$pregnancies == 0))
 
+# bar plot
+barplot(table(data$bmi), xlab = "BMI", ylab="Frequency", col = "blue", main="Bar chart")
+?barplot
+
+
+hist(data$age, right=FALSE, col="green")
+
+boxplot(data ~ data, ylab="Diabets", data =data, col=1.5)
+
+?state
+length(state.area)
+plot(state.area)
+state.name
+
+length(which.min(data$age))
+state.name[8]
+
+
+length(data$age[24])
+
+min(data$triceps.skin.thickness)
+
+nchar(data$triceps.skin.thickness)
+stripchart(data$insulin, xlab="Area (sq. miles)") #see method="stack" & method="jitter" for others
+
+
+boxplot(sqrt(data$bmi))
+hist(sqrt(data$bmi))
 
 ### 2. Univariate analysis
 
 ## 2.1 Visualization
 
 # Plot histogram of age variable to illustrate its distribution
+hist(data$pregnancies)
+hist(data$plasma.glucose)
+hist(data$blood.pressure)
+hist(data$triceps.skin.thickness)
+hist(data$insulin)
+hist(data$bmi)
+hist(data$diabetes.pedigree)
 hist(data$age)
+hist(data$diabetes)
 
 # Plot histograms of all variables
 par(mfrow=c(4,3))
