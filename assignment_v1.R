@@ -33,16 +33,17 @@ ncol(data)
 nrow(data)
 
 # Inspect top rows of the data frame
-head(data)
+head(data$pregnancies)
 
 # Inspect the variable called 'age' (20 first elements)
-head(data$age, 20)
+age_20 <- head(data$age, 10)
 
 # The same can be done like this, as age is the 3rd variable. Returns a vector.
 data[1:20,3]
 
 # Select multiple columns of the data frame. Returns a data frame (a table).
-data[1:20, c(3,5)]
+eyob <- data[1:20, c(3,4,5)]
+eyob
 
 data[1:10, c(5)]
 
@@ -71,7 +72,8 @@ num_pregs/nrow(data)
 mean(data$pregnancies)
 
 # Find rows with missing values in diabetes variable
-data[which(is.na(data$diabetes)),]
+miss_dia <- data[which(is.na(data$diabetes)),]
+nrow(miss_dia)
 
 # Filter out missing values (NA) in diabetes variable
 na.omit(data$diabetes)
@@ -81,6 +83,9 @@ length(which(data$age < 30))
 
 # Calculate the number of people under 30 who haven't been pregnant
 length(which(data$age < 30 & data$pregnancies == 0))
+
+count_people <- length(which(data$diabetes ==1 & data$bmi >= 30 ))
+count_people
 
 # bar plot
 barplot(table(data$bmi), xlab = "BMI", ylab="Frequency", col = "blue", main="Bar chart")
@@ -93,6 +98,7 @@ boxplot(data ~ data, ylab="Diabets", data =data, col=1.5)
 
 ?state
 length(state.area)
+
 plot(state.area)
 state.name
 
@@ -156,21 +162,36 @@ hist(data$age)
 
 # Calculate various summary statistics for variables in a data set (or single variables)
 summary(data)
-
+?summary
 # This code can be used to calculate some statistic for each variable at once
 lapply(data, mean)
 lapply(data, sd)
 
-# Calculate quantiles for the age variable, provides threshold values for equally frequent intervals of the variable
+# Calculate quantiles for the age variable, provides threshold values for 
+# equally frequent intervals of the variable
 quantile(data$age)
+?quantile
 
 
 ### 3. Bivariate analysis
+summary(data$age)
+hist(data$age)
+
+#Q3d
+
+summary(data$bmi)
+quantile(data$bmi)
+#75%
 
 ## 3.1 Visualization
 
 # Plot the variable age against insulin in a scatter plot
 plot(data$age, data$insulin)
+attach(data)
+
+plot(data$age, data$blood.pressure,
+    col =c("red","blue"), 
+     main="Relationship between Age & Blood pressure")
 
 # Plot variables pairwise in all combinations
 pairs(data[1:8],cex=0.05)
@@ -180,7 +201,7 @@ pairs(data[1:8], col=c("black","red")[data$diabetes+1], cex=0.05)
 
 
 # Density plots to visualize the different distributions of diabetes and non-diabetes cases, including their means
-par(mfrow=c(4,3))
+par(mfrow=c(3,3))
 for(i in 1:(ncol(data)-1)){
   plot(density(data[which(data$diabetes==0),i]), main=names(data)[i])
   lines(density(data[which(data$diabetes==1),i]),col="darkred")
@@ -192,10 +213,12 @@ for(i in 1:(ncol(data)-1)){
 ## 3.2 Summary statistics
 
 # Correlation matrix of variables in diabetes data set
-cor(data)
+cor.test(data$age, data$pregnancies)
+cor(data, data$age)
 
 # Mean difference
 # Values of the age variable for data points with diabetes (diabetes variable equals 1)
+
 data$age[which(data$diabetes == 1)]
 
 # Standardize (scale and center) each column of data separately

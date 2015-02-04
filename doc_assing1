@@ -1,0 +1,66 @@
+Normal distribution fails for:
+
+Blood pressure 0-10 outliers
+
+Glucose: Is it concentration or glucose intake?
+0-10 Outliers 
+
+BMI 0-5
+Pedigree
+
+
+# Age range
+range(data$age)
+[1] 21 81
+Q3b.
+65.14% or 497 of abjects have diabetics 0
+34.86% or 266 have diabetics 1
+
+Q3c.
+Median: 72.00
+Mean: 69.11
+
+#Q3d
+75%
+
+Q3.e
+Because the age data is not symmetrical
+
+Q4.a
+
+
+insulin is most strongly corelated with plasma glucose
+
+Blood pressure and age have average corelation.
+
+4b. blood pressure, age, plasma glucose
+
+Q5a
+
+pregnancies            0.12945867
+plasma.glucose         1.00000000
+blood.pressure         0.15258959
+triceps.skin.thickness 0.05732789
+insulin                0.33135711
+bmi                    0.22049404
+diabetes.pedigree      0.13735430
+age                    0.26351432
+diabetes                       NA
+
+Q5a2. Blood pressure has relatively the least cause diabetes, on the other hand plasma glucose, and age seems like to have a relationship with diabetes. Which is, acording to the graph younger people seems to have less number of diabets than the older ones, and high glucose concentration can be the symptom for diabetes. 
+
+Q5b. 
+ cor(data, data$age)
+                              [,1]
+pregnancies             0.54434123
+plasma.glucose          0.26351432
+blood.pressure          0.23952795
+triceps.skin.thickness -0.11397026
+insulin                -0.04216295
+bmi                     0.03528127
+diabetes.pedigree       0.03362853
+age                     1.00000000
+diabetes                        NA
+
+Diabetes pedigree is least associated with age.
+

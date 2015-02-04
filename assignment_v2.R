@@ -34,14 +34,35 @@ miss_row
 count_people <- length(which(data$diabetes == 1 & data$bmi >= 30 ))
 count_people
 
+# Plot histogram of age variable to illustrate its distribution
+hist(data$pregnancies)
+hist(data$plasma.glucose)
+hist(data$blood.pressure)
+hist(data$triceps.skin.thickness)
+hist(data$insulin)
+hist(data$bmi)
+hist(data$diabetes.pedigree)
+hist(data$age)
+hist(data$diabetes)
+
 
 data_summary <- summary(data)
-
+data_summary
 ## Q3.a. What is the range of age ?
-age_range <- (max(data$age) - min(data$age))
+range(data$age)
 
-blood_pressure = (data$blood.pressure)
+# age_range <- (max(data$age) - min(data$age))
+
+
+blood_pressure <-(data$blood.pressure)
 sd(blood_pressure)
+var(blood_pressure)
+
+?dnorm
+summary(data$age)
+hist(data$age)
+
+?plot
 
 ## simn = rnorm(data$blood.pressure, 69.11 , 19.35581)
 ## hist(simn, main="Symmetric distribution")
