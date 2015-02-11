@@ -96,15 +96,15 @@ hist(data$age, right=FALSE, col="green")
 
 boxplot(data ~ data, ylab="Diabets", data =data, col=1.5)
 
-?state
-length(state.area)
-
-plot(state.area)
-state.name
-
-length(which.min(data$age))
-state.name[8]
-
+# ?state
+# length(state.area)
+# 
+# plot(state.area)
+# state.name
+# 
+# length(which.min(data$age))
+# state.name[8]
+# 
 
 length(data$age[24])
 
@@ -189,6 +189,7 @@ quantile(data$bmi)
 plot(data$age, data$insulin)
 attach(data)
 
+# relationship between age and blood pressure
 plot(data$age, data$blood.pressure,
     col =c("red","blue"), 
      main="Relationship between Age & Blood pressure")
@@ -218,14 +219,14 @@ cor(data, data$age)
 
 # Mean difference
 # Values of the age variable for data points with diabetes (diabetes variable equals 1)
-
-data$age[which(data$diabetes == 1)]
+data$age[which(data$diabetes == 0)]
 
 # Standardize (scale and center) each column of data separately
-scaled_data <- scale(data)
+scaled_data <- scale(data$)
+scaled_data
 
 
 # Mean difference significance test
-t.test(data$age~data$diabetes)
+t.test(data$age~data$diabetes==0)
 
 

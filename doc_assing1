@@ -64,3 +64,39 @@ diabetes                        NA
 
 Diabetes pedigree is least associated with age.
 
+
+
+data:  data$pregnancies by data$diabetes
+mean in group 0 mean in group 1 
+       3.299799        4.887218 
+
+data:  data$plasma.glucose by data$diabetes
+mean in group 0 mean in group 1 
+       110.2334        141.0865 
+
+data:  data$blood.pressure by data$diabetes
+mean in group 0 mean in group 1 
+       68.14085        70.79323 
+
+data:  data$triceps.skin.thickness by data$diabetes
+mean in group 0 mean in group 1 
+       19.66600        22.13158 
+
+data:  data$insulin by data$diabetes
+mean in group 0 mean in group 1 
+       69.09457        99.55639 
+
+data:  data$bmi by data$diabetes
+mean in group 0 mean in group 1 
+       30.29276        35.14023 
+
+
+data:  data$diabetes.pedigree by data$diabetes
+mean in group 0 mean in group 1 
+      0.4296720       0.5527669 
+
+
+data:  data$age by data$diabetes
+mean in group 0 mean in group 1 
+       31.21529        37.10526 
+
