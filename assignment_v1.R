@@ -219,12 +219,17 @@ cor(data, data$age)
 # Mean difference
 # Values of the age variable for data points with diabetes (diabetes variable equals 1)
 
-data$age[which(data$diabetes == 1)]
+age_diab <- data$age[which(data$diabetes == 1)]
 
+age_diab0 <- data$age[which(data$diabetes == 0)]
+age_diab
 # Standardize (scale and center) each column of data separately
 scaled_data <- scale(data)
 
+scaled_data
 
+scaled_data0 <- scale(age_diab0)
+scaled_data0
 # Mean difference significance test
 t.test(data$age~data$diabetes)
 
