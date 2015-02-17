@@ -65,6 +65,9 @@ errors
 plot(errors$validation_error, type="l", col="red", log="y", ylab="Error", xlab="Degree")
 lines(errors$train_error)
 
+# Plot errors on logaritmic scale
+plot(errors$train_error, type="l", col="green", log="y", ylab="Error", xlab="Degree")
+lines(errors$validation_error)
 
 ### 2. Classification
 
@@ -83,13 +86,14 @@ if(!require(klaR)){ install.packages("klaR"); library(klaR) }
 if(!require(neuralnet)){ install.packages("neuralnet"); library(neuralnet) }
 
 
+
 ## 2.2 Visual classification
 # Train LDA classifier on 2 variables, 120 rows;
 # visualize decision boundrary and data points in training set;
 # misclassifications shown as red labels, class means as black dots.
 
 partimat(diabetes ~ plasma.glucose + bmi, data=data[1:120,], method="lda", prec=300, plot.control=c(cex=0.7))
-
+??partimat
 
 
 ## 2.3 Classification on more variables
@@ -106,13 +110,14 @@ lapply(shuffled_data[,1:8], sd)
 
 # Save data points without known diagnosis separately
 unknown_data = shuffled_data[which(is.na(shuffled_data$diabetes)),]
-
+unknown_data
 # Filter out rows with missing values
 shuffled_data = na.omit(shuffled_data)
-
+View(shuffled_data)
 
 # Choose split point for data set at 80%
 split_point = round(nrow(shuffled_data)*0.8)
+split_point
 # Split data set into train, validation and test set
 train_set = shuffled_data[1:split_point,]
 test_set = shuffled_data[(split_point+1):nrow(shuffled_data),]
@@ -130,6 +135,7 @@ prediction = predict(lda_model, test_set)$class
 ## 2.4 Evaluation
 # Create contingency table, rows for prediction, columns for observation
 contab = table(prediction, observation=test_set$diabetes)
+View(contab)
 
 # Calculate prediction error rate
 1-sum(contab*diag(nrow(contab)))/sum(contab) 
@@ -141,11 +147,12 @@ contab = table(prediction, observation=test_set$diabetes)
 mean(train_set$diabetes == 1)
 
 # Calculate contingency table for classification based on consistent guess on class 1
+
 # Note: table rows with all zeros are not shown!
 guess = rep(1, nrow(test_set))
 test_tab = table(guess, observation=test_set$diabetes)
 
-
+test_tab
 
 ## Preferences for different error types
 
