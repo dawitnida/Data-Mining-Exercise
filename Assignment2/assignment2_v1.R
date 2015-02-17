@@ -3,7 +3,7 @@
 ### 0. Initialization
 
 # Set working directory to location of data files. Change this! (note: use /, not \)
-setwd("C:/Users/sronnqvi/dmtm/assignment2")
+setwd("C:/Projects/DM_Assign1/Assignment2")
 
 ### 1. Fitting a function / regression
 
@@ -93,7 +93,7 @@ if(!require(neuralnet)){ install.packages("neuralnet"); library(neuralnet) }
 # misclassifications shown as red labels, class means as black dots.
 
 partimat(diabetes ~ plasma.glucose + bmi, data=data[1:120,], method="lda", prec=300, plot.control=c(cex=0.7))
-??partimat
+
 
 
 ## 2.3 Classification on more variables
@@ -138,13 +138,13 @@ contab = table(prediction, observation=test_set$diabetes)
 View(contab)
 
 # Calculate prediction error rate
-1-sum(contab*diag(nrow(contab)))/sum(contab) 
+p_error -> 1-sum(contab*diag(nrow(contab)))/sum(contab) 
 
 
 ## Comparison with guess on a priori most probable class
 
 # Calculate prior probability of class 1 (diabetes)
-mean(train_set$diabetes == 1)
+pp -> mean(train_set$diabetes == 1)
 
 # Calculate contingency table for classification based on consistent guess on class 1
 
@@ -152,7 +152,7 @@ mean(train_set$diabetes == 1)
 guess = rep(1, nrow(test_set))
 test_tab = table(guess, observation=test_set$diabetes)
 
-test_tab
+
 
 ## Preferences for different error types
 
@@ -161,6 +161,13 @@ class_1_posteriors = predict(lda_model, test_set)$posterior[,2]
 prediction = (class_1_posteriors > threshold)*1
 table(prediction, observation=test_set$diabetes)
 
+threshold_2 = 0.50
+prediction_2 = (class_1_posteriors > threshold_2)*1
+table(prediction_2, observation=test_set$diabetes)
+
+threshold_3 = 0.75
+prediction_3 = (class_1_posteriors > threshold_3)*1
+table(prediction_3, observation=test_set$diabetes)
 
 ## Predicting unknown data
 # Posterior probabilities for unknown data points
@@ -197,3 +204,4 @@ prediction = (valid_res$net.result[,1]>0.5)*1
 
 # Contingency table
 contab = table(prediction, observation=valid_set$diabetes)
+
