@@ -19,7 +19,10 @@
 #     FalseNegative: 19
 #     TruePositive: 30
 
-#Q4.a Prediction accuracy:0.1830065
+#Q4.a 
+
+#Prediction accuracy:0.1830065
+
 #Q4.b  0.1187828137
 
 #Q5
