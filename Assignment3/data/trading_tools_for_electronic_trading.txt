@@ -1,0 +1,1 @@
+Trading tools for electronic trading . Tools for trading and monitoring a commodity on an electronic exchange using a graphical user interface and a user input device. The tools will aid the trader in determining the status, trends in the market, and the trader's position in the market.

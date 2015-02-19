@@ -1,0 +1,1 @@
+TRACK DATA ENCRYPTION . A method for conducting a secure transaction using a secondary PAN is disclosed. The method includes providing a secondary PAN associated with a primary PAN, where the secondary PAN has at least one end portion that is the same as the primary PAN, but has a middle portion that is different than the primary PAN.

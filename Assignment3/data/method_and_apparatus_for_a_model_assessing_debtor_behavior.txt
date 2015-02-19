@@ -1,0 +1,1 @@
+Method and Apparatus for a Model Assessing Debtor Behavior . A computer implemented method for assessing different expected payment behavior of a debtor with respect to different creditors.

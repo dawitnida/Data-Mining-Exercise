@@ -1,0 +1,1 @@
+ARCHITECTURE AND METHOD FOR COMBINING COST DATA IN AUTOMATED MISSION PLANNERS . A system and method for combining cost maps including a multiplicity of cost service components for converting raw planning factors into standardized cost factors. A cost combiner component combines cost factors according to a cost configuration to generate a combined cost map

@@ -1,0 +1,1 @@
+Finantial instrument exchange transaction system . The present invention is an exchange transaction system for financial and/or related instruments, in which exchange transaction markets for financial instruments and/or quasi-financial instruments are created via computer networks and users can complete exchange transactions between and/or among themselves.

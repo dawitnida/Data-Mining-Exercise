@@ -1,0 +1,1 @@
+Financial transaction modeling system . Systems and methods are provided to model financial transactions. According to some embodiments, simple events, branch events, composite events, and/or contingent events associated with a financial transaction are defined. The events may then be used to automatically manage the transaction during the transaction's lifecycle.

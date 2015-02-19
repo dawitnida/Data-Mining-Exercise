@@ -1,0 +1,1 @@
+REFUND SYSTEM AND METHOD . A refund system provides for detections of eligibility of a user for a refund and uses a token to identify purchases and to retrieve the information in respect of those purchases for processing a refund in respect of those purchases.

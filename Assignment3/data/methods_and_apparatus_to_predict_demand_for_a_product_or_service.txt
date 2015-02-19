@@ -1,0 +1,1 @@
+METHODS AND APPARATUS TO PREDICT DEMAND FOR A PRODUCT OR SERVICE . Methods and apparatus to predict demand for a product or service (e.g., music concerts, toys, etc.) are disclosed. A futures market is opened for the particular good or service, and market data is generated. The producer of the product or service makes a production decision based on that market data.

@@ -1,0 +1,1 @@
+MOBILE PHONE PAYMENT WITH DISABLING FEATURE . A method and system for payments for mobile phone payments with a disabling feature is disclosed. The method includes activating a mobile phone containing contactless payment systems, and having a timeout feature disable the contactless payment systems after a set period of time.

@@ -1,0 +1,1 @@
+PIN-LESS ATM PROCESSING SYSTEM . A system and method are provided for processing transactions across an ATM network without requiring the use of a PIN or a signature. The transactions can be aggregated to allow multiple purchases to be processed in a single transaction.

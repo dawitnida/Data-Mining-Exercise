@@ -1,0 +1,1 @@
+System and Method for Processing Financial Transactions . A system for processing financial transactions based on consumer preferences is disclosed. The system allows a user to specify on a payment device a consumer preference which is communicable to a payment terminal and is determinative in pricing goods and services.

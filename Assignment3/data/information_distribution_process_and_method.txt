@@ -1,0 +1,1 @@
+Information distribution process and method . A process for distributing information in an electronic market includes an insertion process to insert, in a file that resides in a storage medium, information representing an activity relating to a security interest stored in an order book that resides in main memory and is accessible by a matching process.

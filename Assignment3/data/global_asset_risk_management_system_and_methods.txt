@@ -1,0 +1,1 @@
+Global asset risk management system and methods . A method and system for providing a risk assessment are disclosed. The method includes receiving intelligence from at least one intelligence source, and generating a risk assessment report based on the intelligence.

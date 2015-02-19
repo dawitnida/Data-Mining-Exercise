@@ -1,0 +1,1 @@
+Stock value chains . Methods for creating and maintaining stock value chains. One embodiment comprises the steps of receiving a stock symbol, creating a value chain for the stock symbol, and returning the value chain of the stock symbol.

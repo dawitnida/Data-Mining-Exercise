@@ -1,0 +1,1 @@
+Performance management platform . A method of and system for creating a performance management platform for an organization and using said platform to support analysis, management, optimization, reporting and simulation for any part of the organization.

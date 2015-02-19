@@ -1,0 +1,1 @@
+Method for calculating portfolio scaled IRR . Process and system for simultaneously evaluating performance attribution for each of multiple aggregates in a private portfolio through use of a multiply neutrally-weighted portfolio created with one or more neutrally-weighted portfolio dummies.

@@ -1,0 +1,1 @@
+Investment information providing system of which working display may be set by a user, and a method thereof . The present invention provides a system and a method wherein a user can set working window display in an investment information providing system according to his/her own preference or needs.

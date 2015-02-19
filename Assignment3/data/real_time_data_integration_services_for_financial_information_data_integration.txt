@@ -1,0 +1,1 @@
+Real time data integration services for financial information data integration . Financial information data integration is provided through real time data integration services deployed in a services oriented architecture.

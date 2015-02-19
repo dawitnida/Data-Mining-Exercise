@@ -1,0 +1,1 @@
+COMMISSION MANAGEMENT SYSTEM . The present invention relates to a commission management system and method for managing soft dollar and commission recapture services over communications network. The system and method pays the invoices from the soft dollar commission account after the client views and approves invoices online.

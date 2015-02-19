@@ -1,0 +1,1 @@
+Construction of Currency Strength Indices . Systems, methods, and computer program products for constructing and weighting a currency index for a currency basket. The weights of the components of the currency basket can be determined using only past statistical time series behaviors of the currency pairs.

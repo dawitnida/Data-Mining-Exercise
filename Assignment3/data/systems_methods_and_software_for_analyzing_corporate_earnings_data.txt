@@ -1,0 +1,1 @@
+Systems, methods, and software for analyzing corporate earnings data . A financial information system provides enhanced data and/or indicators regarding reported corporate earnings.

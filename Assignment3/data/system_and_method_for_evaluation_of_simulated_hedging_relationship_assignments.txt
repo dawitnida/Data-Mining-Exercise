@@ -1,0 +1,1 @@
+System and method for evaluation of simulated hedging relationship assignments . A system and method for evaluation of simulated hedging relationship assignments. A processor may, in response to an inputted selection of a simulated hedging relationship assignment, calculate at least one effectiveness value for the simulated hedging relationship assignment.

@@ -1,0 +1,1 @@
+Wireless data management system . A portable electronic data management and transport system includes a base unit and a wireless remote unit that incorporates, e.g., a graphic tablet digitizer for signaling signature data to a personal computer.

@@ -1,0 +1,1 @@
+Testing a quality of a report . There is provided a method that includes receiving a request to provide a report; determining whether content of the report meets a threshold level of quality; and issuing a warning if the content does not meet the threshold level of quality.

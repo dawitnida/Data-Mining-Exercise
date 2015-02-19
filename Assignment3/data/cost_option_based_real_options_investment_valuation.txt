@@ -1,0 +1,1 @@
+Cost option based real options investment valuation . A method and system for determining investment value adds data representative of real options value of forecast revenues to data representative of net present value, and subtracts data representative of real options value of cost forecasts.

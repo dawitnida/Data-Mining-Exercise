@@ -1,0 +1,1 @@
+Interface and monitoring system and method for a vehicle idling control . An idle control system for a vehicle is provided.

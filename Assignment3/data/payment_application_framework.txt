@@ -1,0 +1,1 @@
+PAYMENT APPLICATION FRAMEWORK . A payment application framework may include metaphors and constraints. The metaphors may be associated with actors and objects that are part of the payment transactions. The constraints may include rules and parameters that may be used to process the payment transactions.

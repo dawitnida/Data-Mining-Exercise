@@ -1,0 +1,1 @@
+Open Dealership Management System developed in MySQL, PHP, HTML, and JavaScript . An open browser-based dealership management system and more particularly, a method of using web-based tools (mySQL, PHP, HTML, JavaScript/AJAX) to provide accounting, financial reporting, sales tracking, and customer management for automotive, truck, RV, motorcycle, and boat retail dealerships.

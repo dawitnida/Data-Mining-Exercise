@@ -1,0 +1,1 @@
+Method for secure credit card entry into an online database . A method for more securely entering credit card numbers into online databases.

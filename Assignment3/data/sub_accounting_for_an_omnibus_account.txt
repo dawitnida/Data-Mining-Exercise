@@ -1,0 +1,1 @@
+Sub-accounting for an omnibus account . Methods and apparatus, including computer program products, for sub-accounting for an omnibus account. A method includes, in a server, tracking summary balances of transactions for individual sub-accounts contained in an omnibus account according to transition type and transaction status.

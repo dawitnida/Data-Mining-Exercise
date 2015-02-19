@@ -1,0 +1,1 @@
+AGGREGATION AND ENRICHMENT OF BEHAVIORAL PROFILE DATA USING A MONETIZATION PLATFORM . The present application discloses improved capabilities for aggregating user behavioral data across multiple wireless operators and delivering content to a mobile communication facility based on that aggregation, among other factors.

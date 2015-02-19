@@ -1,0 +1,1 @@
+Online merchandising and marketing system . An online targeted merchandising system that allows a user to purchase an entire experience, including commodities from a plurality of vendors, in a single online transaction. The system may include means for dynamically adjusting offerings, and for selecting which of several offerings to present to a particular user.

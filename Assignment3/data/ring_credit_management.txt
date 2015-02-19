@@ -1,0 +1,1 @@
+Ring credit management . Techniques that may be utilized in a multiprocessor computing system are described. In one embodiment, a request from a thread includes a credit parameter that may be used to update a credit register of a ring manager.

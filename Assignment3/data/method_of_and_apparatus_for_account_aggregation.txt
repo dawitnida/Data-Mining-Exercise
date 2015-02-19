@@ -1,0 +1,1 @@
+Method of and apparatus for account aggregation . There is provided a self-service terminal comprising a display and a network connection. The terminal also includes means for accessing financial information remotely held at a plurality of different locations and means for incorporating the retrieved information in a screen for displaying on the display.

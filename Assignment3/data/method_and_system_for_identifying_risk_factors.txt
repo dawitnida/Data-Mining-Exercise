@@ -1,0 +1,1 @@
+Method and system for identifying risk factors . A method for calculating a risk factor associated with a security is provided and includes the steps of tabulating data pertaining to the security; calculating a plurality equity style factors; calculating equity industry factors and orthogonalizing the risk factors.

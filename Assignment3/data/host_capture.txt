@@ -1,0 +1,1 @@
+HOST CAPTURE . A system and method for processing transactions. A unique transaction identifier is generated for each transaction. Processing of the transaction utilizes the unique transaction identifier.

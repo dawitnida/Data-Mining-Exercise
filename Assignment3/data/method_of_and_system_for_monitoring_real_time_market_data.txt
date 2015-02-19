@@ -1,0 +1,1 @@
+Method of and system for monitoring real time market data . A method of monitoring real time market data includes identifying a category of market data, calculating a result for the category of market data, and at least one of graphically displaying the result in real time and providing an audible indication of the result in real time.

@@ -1,0 +1,1 @@
+Banking process and application architecture . The present invention relates to increasing efficiency in banking-related software. According to the invention, banking application software is organized into classes according to a type of functionality exhibited by the software. The functionality is generic to avoid redundancy and reduce complexity.

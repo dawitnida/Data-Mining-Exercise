@@ -1,0 +1,1 @@
+On-Line Dynamic Certification . A method for ensuring compliance with an investment policy is described. Information regarding past or contemplated future trades is collected. Financial and/or fiduciary positions are then automatically approved, automatically denied, or submitted for approval or denial by a supervisory user.

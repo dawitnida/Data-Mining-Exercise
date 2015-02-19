@@ -1,0 +1,1 @@
+Third-party market center information delivery system . A system and method are disclosed for third-party information distributors to deliver information to market participants through a market center. The third-party information distributor can set when the information should and should not be distributed.

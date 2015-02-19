@@ -1,0 +1,1 @@
+Methods for electronic payments using a third party facilitator . Methods for processing payments electronically over a network-based system wherein a third party or intermediary simplifies payment transactions by making them on behalf of individuals to the end payment recipient without providing individual account information as the basis for the payment.

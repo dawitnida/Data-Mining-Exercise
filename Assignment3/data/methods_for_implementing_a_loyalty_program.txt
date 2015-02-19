@@ -1,0 +1,1 @@
+Methods for Implementing a Loyalty Program . A method of rewarding loyalty of a user may include providing a personal terminal to the user, detecting whether the personal terminal is within proximity of an interaction terminal, and based at least in part on the proximity of the personal terminal to the interaction terminal, providing a benefit to the user.

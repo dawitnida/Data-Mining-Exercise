@@ -1,0 +1,1 @@
+Financial Planning Method and System . The present invention is a method and system for determining a symbolic rating from comparing an investor's current investment value to a investment value that the investor should possess at the current time in order to achieve a desired future investment worth, and transmitting the symbolic rating to the investor.

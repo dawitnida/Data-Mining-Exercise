@@ -1,0 +1,1 @@
+ACCOUNT PERMANENCE . A system and method for using derived account identifiers. The derived account identifiers are associated with a single permanent account identifier. Each derived account identifier is associated with a communication channel or portable consumer device.

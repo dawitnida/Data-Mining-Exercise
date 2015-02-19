@@ -1,0 +1,1 @@
+Method and system for harnessing collective knowledge . The present invention provides a method of aggregating information, the method including: receiving at least one first prediction; and rating the at least one first prediction based at least in part on at least one actual event, thereby providing at least one prediction rating.

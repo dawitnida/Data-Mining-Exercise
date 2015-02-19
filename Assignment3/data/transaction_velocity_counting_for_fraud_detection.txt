@@ -1,0 +1,1 @@
+Transaction Velocity Counting For Fraud Detection . Methods and systems for detecting fraud based on velocity counts are disclosed.

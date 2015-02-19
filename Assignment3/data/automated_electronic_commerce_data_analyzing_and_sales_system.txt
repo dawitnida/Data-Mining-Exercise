@@ -1,0 +1,1 @@
+Automated Electronic Commerce Data Analyzing and Sales System . A method, apparatus, and computer readable storage to implement an automated e-commerce monitoring system. Data can be extracted from different e-commerce sites in an inconspicuous manner. The different auction sites can be monitored for arbitrage situations and suspicious sellers or items for sale.

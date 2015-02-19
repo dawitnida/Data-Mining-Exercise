@@ -1,0 +1,1 @@
+METHOD FOR CONTROLLING SPENDING . An inventive method for controlling spending is disclosed herein. The method includes providing multiple unique identifiers for an account and establishing a spending limit for each identifier.

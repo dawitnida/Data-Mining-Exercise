@@ -1,0 +1,1 @@
+Auditing or Determining Reductions to Card-Issuer Interchange Fees . This document describes tools capable of auditing and/or determining reductions to card-issuer interchange fees charged for credit-card transactions. The tools may do so automatically and with user interaction for thousands or even millions of transactions.

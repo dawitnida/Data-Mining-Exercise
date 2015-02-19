@@ -1,0 +1,1 @@
+Method of and system for ranking optimal values . Transactions are ranked in order of their value in an on-line computer network by comparing a quoted price for each transaction with an adjusted transaction price which is obtained after adjusting a suggested transaction price based on expert assessment.

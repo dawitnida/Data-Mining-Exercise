@@ -1,0 +1,1 @@
+BUDGET ENVELOPE CREDIT CARD . Apparatus and methods for providing a budget envelope credit card are provided. An apparatus according to the invention may include a budget envelope credit card software engine and a rewards software engine that provides a reward scheme for use by the budget envelope credit card engine, the rewards scheme that defines a reward frequency.

@@ -1,0 +1,1 @@
+METHOD AND APPARATUS FOR SECURE WIRELESS POINT OF SALE TRANSACTIONS . In an embodiment, a method of masking transaction data for a secure wireless transaction includes transmitting wireless pseudo transaction data that includes false transaction data and processing received pseudo transaction data and transaction data to extract or separate the transaction data.

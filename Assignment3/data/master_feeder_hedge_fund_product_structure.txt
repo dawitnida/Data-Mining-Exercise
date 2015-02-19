@@ -1,0 +1,1 @@
+Master-feeder hedge fund product structure . A master-feeder investment structure including at least one top tier multi-strategy portfolio, at least one intermediate tier multi-strategy portfolio; and at least one lower tier single strategy fund. The single strategy fund makes a plurality of hedge fund investments in accordance with its predetermined single strategy.

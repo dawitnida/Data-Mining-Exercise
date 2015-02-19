@@ -1,0 +1,1 @@
+Method for maintaining a customer account . A system to maintain a customer account including an account balance where deposits are made by a depositor calling a telephone number to which the caller incurs a charge to be connected. Other embodiments are also described and claimed.

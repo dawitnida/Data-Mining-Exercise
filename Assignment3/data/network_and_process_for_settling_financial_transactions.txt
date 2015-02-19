@@ -1,0 +1,1 @@
+Network and process for settling financial transactions . The invention provides a network and process for simplifying the processing and settlement of financial transactions between financial institutions that are members of different automated clearing house networks.

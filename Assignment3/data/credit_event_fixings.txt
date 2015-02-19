@@ -1,0 +1,1 @@
+Credit event fixings . Disclosed are methods and systems for transacting credit derivatives. The methods and systems allow for the calculation of the final cash settlement prices for credit derivatives following a credit event, such as a corporate bankruptcy.

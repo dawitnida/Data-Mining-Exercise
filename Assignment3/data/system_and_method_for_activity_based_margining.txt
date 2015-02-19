@@ -1,0 +1,1 @@
+System and method for activity based margining . A system and method for factoring in a trader's trading activity into the margin requirements is disclosed. In the securities arena, day traders are assessed different margins than non-day-traders, however, the specific profile of the trader is analyzed (that is, the same rule applies to all day traders).

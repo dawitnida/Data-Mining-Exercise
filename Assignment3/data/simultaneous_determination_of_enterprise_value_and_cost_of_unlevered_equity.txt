@@ -1,0 +1,1 @@
+Simultaneous determination of enterprise value and cost of unlevered equity . The present invention consists of methods through which the value and the cost of unlevered equity of an enterprise can be determined simultaneously through numerical searches using the enterprise cash-flow forecast. These methods improve the accuracy of and simplify enterprise valuations.

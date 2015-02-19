@@ -1,0 +1,1 @@
+System and method for identifying and managing customers in a financial institution . A system and method for managing a customer in a banking institution. The system includes a customer kiosk with biometric device for identifying the customer. The system places the customer in a virtual queue to see a service provider.

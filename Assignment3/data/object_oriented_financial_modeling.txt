@@ -1,0 +1,1 @@
+Object-oriented financial modeling . Software technology is used to build and perform object-oriented financial modeling. A software framework creates highly reusable and layered business objects. Business objects organize financial information and save time through ease of use and a simple intuitive interface.

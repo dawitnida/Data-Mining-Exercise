@@ -1,0 +1,1 @@
+Method and Apparatus for Managing Transactions . A system receives account access information from a user. The account is then accessed using the received access information. Data is harvested from a web page associated with the account or received from another financial data source. The user's ability to access the account is authenticated based on the obtained information.

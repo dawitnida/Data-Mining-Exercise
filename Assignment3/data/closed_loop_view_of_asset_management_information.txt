@@ -1,0 +1,1 @@
+Closed loop view of asset management information . A method for managing asset management information which includes creating a detailed record of an asset at the time of manufacture of the asset; and, systematically updating the detailed record of the asset in a closed loop manner when an event that causes change to the asset occurs.

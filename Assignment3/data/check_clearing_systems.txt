@@ -1,0 +1,1 @@
+Check clearing systems . A system and process for more efficiently clearing checks by transmitting MICR line data together with a URL link to facilitate check clearing via electronic debits by an ACH. The URL link can be used at the option of the paying bank (or other entity) to access images of the check from a database.

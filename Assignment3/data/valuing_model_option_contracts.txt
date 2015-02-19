@@ -1,0 +1,1 @@
+Valuing model option contracts . A method for determining the theoretical value of a Model Option contract.

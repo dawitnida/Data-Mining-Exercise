@@ -1,0 +1,1 @@
+Automated negotiation . A system and method for automated negotiation. An embodiment of the method for automated negotiation comprises constructing a game tree based on an offer received from an opponent; evaluating the game tree; and selecting a counteroffer based on the evaluation of the game tree.

@@ -1,0 +1,1 @@
+SYSTEM AND METHOD FOR CATEGORIZING TRANSACTIONS . A system and method of allowing individuals to categorize transaction information. A user of the system may establish transaction identifiers that may be employed during or subsequent to a transaction in order to categorize transaction information.

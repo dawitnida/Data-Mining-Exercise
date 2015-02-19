@@ -1,0 +1,1 @@
+Financial records maintenance system . The present invention relates to a computer system for maintaining financial records and a method for maintaining such records.

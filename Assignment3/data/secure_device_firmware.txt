@@ -1,0 +1,1 @@
+Secure device firmware . The present invention provides a method and a device using a secure firmware for secure electronic transactions. This firmware realizes two main functions: (1) providing protection for transaction, and (2) providing a unified standard interface for application programs.

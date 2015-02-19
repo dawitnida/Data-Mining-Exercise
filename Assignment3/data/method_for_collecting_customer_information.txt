@@ -1,0 +1,1 @@
+Method for collecting customer information . Display means for encouraging customers to enter their predictions for future Nikkei Stock Averages, commodity futures, or number of visitors to or revenue of a retail establishment during a certain future period, along with personal data, such as e-mail addresses and birth dates.

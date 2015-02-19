@@ -1,0 +1,1 @@
+Statistical pattern recognition and analysis . A technique is provided for analyzing a dataset. The technique includes generating multivariate parameters to capture statistical patterns over time and/or across dimensions in the dataset, and developing a dynamic model based on the multivariate parameters for analyzing the dataset.

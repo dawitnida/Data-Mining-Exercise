@@ -1,0 +1,1 @@
+System for settling model options . A computer implemented system for calculating a settlement price for a Model Option contract, a new type of option that contains a settlement right at a price that is determined by a specified valuation methodology comprising an option pricing model and input values necessary to run the option pricing model.

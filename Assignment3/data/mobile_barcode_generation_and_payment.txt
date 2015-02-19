@@ -1,0 +1,1 @@
+MOBILE BARCODE GENERATION AND PAYMENT . An application on user's mobile device (having a display screen) generates a one-time use and time-limited barcode on the display when the user enters a PIN. The barcode can be scanned to make purchases at a point of sale (POS).

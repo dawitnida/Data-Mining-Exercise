@@ -1,0 +1,1 @@
+System and method for classifying a financial transaction . A computer based system and method automatically classifies a financial transaction. The system and method establish a set of parameters associated with the financial transaction and classify the financial transaction as a function of the set of parameter.

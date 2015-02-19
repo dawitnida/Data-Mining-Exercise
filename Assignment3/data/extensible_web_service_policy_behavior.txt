@@ -1,0 +1,1 @@
+Extensible web service policy behavior . A system for remotely providing services includes an object model having a behavior option object that is indicative of one of a plurality of different ways in which a service behavior can be performed.

@@ -1,0 +1,1 @@
+Compliance rules for dynamic bidding . Systems and techniques to implement compliance rules in a dynamic sourcing system. One or more compliance rules may be associated with an opportunity created using the dynamic sourcing system. A response to the opportunity may be evaluated based on the compliance rule. An action may be taken based on the evaluation.
