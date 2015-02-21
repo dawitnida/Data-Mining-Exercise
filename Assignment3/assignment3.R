@@ -2,7 +2,7 @@
 
 ## Set working directory
 #setwd(paste(getwd(),"data",sep="/"))
-#setwd("C:/Users/sronnqvi/Downloads/assignment3/data")
+setwd("X:/Github/RWorkspaces/DoneAssign/DM_Assign1/Assignment3/data")
 
 ### 1. Text statistics
 
