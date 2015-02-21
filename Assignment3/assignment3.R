@@ -1,3 +1,10 @@
+### Data Mining and Text Mining
+# Assignment 3: Text mining
+# Dawit Nida
+# Eyob Woldegiorgis
+# February 2015
+###
+
 ### 0. Initialization
 
 ## Set working directory
