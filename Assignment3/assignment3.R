@@ -2,13 +2,17 @@
 
 ## Set working directory
 #setwd(paste(getwd(),"data",sep="/"))
-#setwd("C:/Users/sronnqvi/Downloads/assignment3/data")
+setwd("X:/Github/RWorkspaces/DoneAssign/DM_Assignments/Assignment3/data")
+getwd()
+list.files()
 
 ### 1. Text statistics
 
 # Read file
 file = "transaction_management_system.txt"
 text = Reduce(paste, readLines(file))
+
+
 
 # Tokenize and normalize
 tokens = unlist(lapply(strsplit(gsub("\\.|,|!|\\?|:|;|\\(|\\)|\\[|\\]|\\-\\-", "", text), " "), tolower))
@@ -25,8 +29,8 @@ hist(term_freqs, breaks=500, xlab="Term Frequency (TF)", ylab="TF count", xlim=c
 
 
 # Print most frequent terms
-term_freqs[order(term_freqs, decreasing=TRUE)][1:30]
-
+term_fre <- term_freqs[order(term_freqs, decreasing=TRUE)][1:30]
+View(term_fre)
 
 ## 1.2 N-gram statistics
 
