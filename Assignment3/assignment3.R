@@ -4,6 +4,8 @@
 #setwd(paste(getwd(),"data",sep="/"))
 #setwd("C:/Users/sronnqvi/Downloads/assignment3/data")
 
+setwd("C:/Projects/DM_Assign1/Assignment3")
+setwd("C:/Projects/DM_Assign1/Assignment3/data")
 ### 1. Text statistics
 
 # Read file
@@ -17,6 +19,10 @@ tokens = unlist(lapply(strsplit(gsub("\\.|,|!|\\?|:|;|\\(|\\)|\\[|\\]|\\-\\-", "
 
 # Calculate term frequencies
 term_freqs = table(tokens)
+View(sort(term_freqs))
+
+
+mean(term_freqs)
 
 # Plot histogram of term frequencies
 hist(term_freqs, breaks=500, xlab="Term Frequency (TF)", ylab="TF count")
@@ -32,7 +38,7 @@ term_freqs[order(term_freqs, decreasing=TRUE)][1:30]
 
 # Make bigrams
 bigrams = unlist(Map(function(i) paste(tokens[i],tokens[i+1]), 2:length(tokens)-1))
-
+bigrams
 # Calculate bigram frequencies
 bigram_freqs = table(bigrams)
 
@@ -117,6 +123,22 @@ scores = allTF*matrix(ncol=1, data=log(nrow(allTF)/DF))
 keywords = Map(function(x) unlist(scores[x,order(scores[x,], decreasing=TRUE)][1:20]), 1:5)
 names(keywords) = files[1:5]
 keywords
+## Question 3a evaluating the quality of the most
+file2 = "estimating_risk_of_a_portfolio_of_financial_investments.txt"
+text2 = Reduce(paste, readLines(file2))
+
+# Tokenize and normalize
+tokens2 = unlist(lapply(strsplit(gsub("\\.|,|!|\\?|:|;|\\(|\\)|\\[|\\]|\\-\\-", "", text2), " "), tolower))
+
+## 1.1 Term statistics
+
+# Calculate term frequencies
+term_freqs2 = table(tokens2)
+View(sort(term_freqs2))
+
+
+mean(term_freqs)
+##End of Q3.a
 
 ## 2. Document clustering
 ## 2.1 Similarity
@@ -147,16 +169,17 @@ labs=Map(function(f){substr(f, 1, 50)}, files[1:ndocs])
 
 # Perform clustering
 model = hclust(distances, method="ward")
+model2 = hclust(distances, method="complete")
 
 # Plot dendrogram
 plot(model)
-
+plot(model2)
 # Plot dendrogram with filename labels
 plot(model,labels=labs, cex=0.7)
 
 ## 2.3 Partitioning
 # Partition hierarchy into k number of non-overlapping clusters
-rect.hclust(model, k=20, border="blue") 
+rect.hclust(model, k=8, border="red") 
 
 
 ### Bonus code: Alternative visualization (not needed for assignment)
