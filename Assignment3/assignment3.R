@@ -1,10 +1,21 @@
+### Data Mining and Text Mining
+# Assignment 3: Text mining
+# Dawit Nida
+# Eyob Woldegiorgis
+# February 2015
+###
+
 ### 0. Initialization
 
 ## Set working directory
 #setwd(paste(getwd(),"data",sep="/"))
+<<<<<<< HEAD
 setwd("X:/Github/RWorkspaces/DoneAssign/DM_Assignments/Assignment3/data")
 getwd()
 list.files()
+=======
+setwd("X:/Github/RWorkspaces/DoneAssign/DM_Assign1/Assignment3/data")
+>>>>>>> 716b7e0f4f44b7e576704333d2289155ff925892
 
 ### 1. Text statistics
 
